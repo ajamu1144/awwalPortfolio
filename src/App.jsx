@@ -1,8 +1,7 @@
 import React from "react";
-import Hero from "./components/Hero.jsx";
-import About from "./components/About.jsx";
-import Projects from "./components/Projects.jsx";
-import Contact from "./components/Contacts";
+import Hero from "./Components/Hero.jsx";
+import About from "./Components/About.jsx";
+import Projects from "./Components/Projects.jsx";
 import "./App.css";
 import ToDoList from "./Components/ToDoList.jsx";
 import Header from "./Components/Header.jsx";
