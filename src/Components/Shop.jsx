@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaCartPlus, FaShoppingCart } from "react-icons/fa";
-import ItemPreview from './Itempreview.jsx';
+import Itempreview from './Itempreview.jsx';
 // import './shop.css'; // import css file
 
 const Shop = () => {
@@ -90,7 +90,7 @@ const Shop = () => {
             {items.length !== 0 ? (
                 <div className="allItems">
                     {items.map((item) => (
-                        <ItemPreview
+                        <Itempreview
                             key={item.id}
                             itemImage={item.image}
                             productPrice={item.price}
