@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaCartPlus, FaShoppingCart } from "react-icons/fa";
-import ItemPreview from './ItemPreview.jsx';
+import ItemPreview from './Itempreview.jsx';
 // import './shop.css'; // import css file
 
 const Shop = () => {
